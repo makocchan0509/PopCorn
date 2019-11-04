@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640AE4EA55DF5390DD74A561 /* libPods-PopCorn-PopCornUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF26D475A38DD90D3EE662E6 /* libPods-PopCorn-PopCornUITests.a */; };
+		8EC35BE66519683AD35959B5 /* libPods-PopCornTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAE27BF868C5F260AE2741D /* libPods-PopCornTests.a */; };
+		9FA25A5E236D599400F98561 /* PopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA25A57236D599400F98561 /* PopListViewController.swift */; };
+		9FA25A5F236D599400F98561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA25A58236D599400F98561 /* ViewController.swift */; };
+		9FA25A60236D599400F98561 /* ModalUsePopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA25A59236D599400F98561 /* ModalUsePopViewController.swift */; };
+		9FA25A61236D599400F98561 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA25A5A236D599400F98561 /* LoginViewController.swift */; };
+		9FA25A62236D599400F98561 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA25A5B236D599400F98561 /* UIColorHex.swift */; };
+		9FA25A63236D599400F98561 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 9FA25A5C236D599400F98561 /* Preview Content */; };
+		9FA25A64236D599400F98561 /* PopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA25A5D236D599400F98561 /* PopDetailViewController.swift */; };
+		9FA25A67236D59B900F98561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA25A65236D59B900F98561 /* Main.storyboard */; };
+		9FA25A6A236D5ECC00F98561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA25A68236D5ECC00F98561 /* LaunchScreen.storyboard */; };
+		9FA25A6C236D78FA00F98561 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA25A6B236D78FA00F98561 /* CoreBluetooth.framework */; };
 		9FD6C892236D5172006D55FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6C891236D5172006D55FB /* AppDelegate.swift */; };
 		9FD6C894236D5172006D55FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6C893236D5172006D55FB /* SceneDelegate.swift */; };
 		9FD6C896236D5172006D55FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6C895236D5172006D55FB /* ContentView.swift */; };
 		9FD6C898236D5173006D55FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6C897236D5173006D55FB /* Assets.xcassets */; };
 		9FD6C89B236D5173006D55FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6C89A236D5173006D55FB /* Preview Assets.xcassets */; };
-		9FD6C89E236D5173006D55FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6C89C236D5173006D55FB /* LaunchScreen.storyboard */; };
 		9FD6C8A9236D5173006D55FB /* PopCornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6C8A8236D5173006D55FB /* PopCornTests.swift */; };
 		9FD6C8B4236D5173006D55FB /* PopCornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6C8B3236D5173006D55FB /* PopCornUITests.swift */; };
+		9FD6C8C3236D53DB006D55FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6C8C2236D53DB006D55FB /* GoogleService-Info.plist */; };
+		ADB4E89DC77D67EFA2C26C74 /* libPods-PopCorn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5DEFF07064E608B5637B9C /* libPods-PopCorn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5DEFF07064E608B5637B9C /* libPods-PopCorn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopCorn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAE2FFC51F0C772558F7BBC /* Pods-PopCornTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopCornTests.release.xcconfig"; path = "Target Support Files/Pods-PopCornTests/Pods-PopCornTests.release.xcconfig"; sourceTree = "<group>"; };
+		448A4A46DC82330C02740486 /* Pods-PopCornTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopCornTests.debug.xcconfig"; path = "Target Support Files/Pods-PopCornTests/Pods-PopCornTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D823A694B0C8803DF2B6664 /* Pods-PopCorn-PopCornUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopCorn-PopCornUITests.debug.xcconfig"; path = "Target Support Files/Pods-PopCorn-PopCornUITests/Pods-PopCorn-PopCornUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EF0AFD2FD84EA9A3BB0F3E0 /* Pods-PopCorn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopCorn.release.xcconfig"; path = "Target Support Files/Pods-PopCorn/Pods-PopCorn.release.xcconfig"; sourceTree = "<group>"; };
+		9FA25A57236D599400F98561 /* PopListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopListViewController.swift; sourceTree = "<group>"; };
+		9FA25A58236D599400F98561 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FA25A59236D599400F98561 /* ModalUsePopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalUsePopViewController.swift; sourceTree = "<group>"; };
+		9FA25A5A236D599400F98561 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FA25A5B236D599400F98561 /* UIColorHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		9FA25A5C236D599400F98561 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		9FA25A5D236D599400F98561 /* PopDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDetailViewController.swift; sourceTree = "<group>"; };
+		9FA25A66236D59B900F98561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FA25A69236D5ECC00F98561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FA25A6B236D78FA00F98561 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		9FD6C88E236D5172006D55FB /* PopCorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopCorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD6C891236D5172006D55FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD6C893236D5172006D55FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9FD6C895236D5172006D55FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FD6C897236D5173006D55FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD6C89A236D5173006D55FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9FD6C89D236D5173006D55FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD6C89F236D5173006D55FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FD6C8A4236D5173006D55FB /* PopCornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopCornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD6C8A8236D5173006D55FB /* PopCornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCornTests.swift; sourceTree = "<group>"; };
@@ -49,6 +76,12 @@
 		9FD6C8AF236D5173006D55FB /* PopCornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopCornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD6C8B3236D5173006D55FB /* PopCornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCornUITests.swift; sourceTree = "<group>"; };
 		9FD6C8B5236D5173006D55FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD6C8C1236D51AC006D55FB /* PopCornDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopCornDebug.entitlements; sourceTree = "<group>"; };
+		9FD6C8C2236D53DB006D55FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4CCD6BAC47311365A024746 /* Pods-PopCorn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopCorn.debug.xcconfig"; path = "Target Support Files/Pods-PopCorn/Pods-PopCorn.debug.xcconfig"; sourceTree = "<group>"; };
+		BF26D475A38DD90D3EE662E6 /* libPods-PopCorn-PopCornUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopCorn-PopCornUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAE27BF868C5F260AE2741D /* libPods-PopCornTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopCornTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41483C43D0B11708A1A64D3 /* Pods-PopCorn-PopCornUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopCorn-PopCornUITests.release.xcconfig"; path = "Target Support Files/Pods-PopCorn-PopCornUITests/Pods-PopCorn-PopCornUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA25A6C236D78FA00F98561 /* CoreBluetooth.framework in Frameworks */,
+				ADB4E89DC77D67EFA2C26C74 /* libPods-PopCorn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC35BE66519683AD35959B5 /* libPods-PopCornTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640AE4EA55DF5390DD74A561 /* libPods-PopCorn-PopCornUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		298F5ACC6D69D113DECCC80A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA25A6B236D78FA00F98561 /* CoreBluetooth.framework */,
+				1C5DEFF07064E608B5637B9C /* libPods-PopCorn.a */,
+				BF26D475A38DD90D3EE662E6 /* libPods-PopCorn-PopCornUITests.a */,
+				BFAE27BF868C5F260AE2741D /* libPods-PopCornTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9FD6C885236D5172006D55FB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				9FD6C8A7236D5173006D55FB /* PopCornTests */,
 				9FD6C8B2236D5173006D55FB /* PopCornUITests */,
 				9FD6C88F236D5172006D55FB /* Products */,
+				A6E5610F6E439595D69E5739 /* Pods */,
+				298F5ACC6D69D113DECCC80A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +149,21 @@
 		9FD6C890236D5172006D55FB /* PopCorn */ = {
 			isa = PBXGroup;
 			children = (
+				9FA25A68236D5ECC00F98561 /* LaunchScreen.storyboard */,
+				9FA25A65236D59B900F98561 /* Main.storyboard */,
+				9FA25A5A236D599400F98561 /* LoginViewController.swift */,
+				9FA25A59236D599400F98561 /* ModalUsePopViewController.swift */,
+				9FA25A5D236D599400F98561 /* PopDetailViewController.swift */,
+				9FA25A57236D599400F98561 /* PopListViewController.swift */,
+				9FA25A5C236D599400F98561 /* Preview Content */,
+				9FA25A5B236D599400F98561 /* UIColorHex.swift */,
+				9FA25A58236D599400F98561 /* ViewController.swift */,
+				9FD6C8C2236D53DB006D55FB /* GoogleService-Info.plist */,
+				9FD6C8C1236D51AC006D55FB /* PopCornDebug.entitlements */,
 				9FD6C891236D5172006D55FB /* AppDelegate.swift */,
 				9FD6C893236D5172006D55FB /* SceneDelegate.swift */,
 				9FD6C895236D5172006D55FB /* ContentView.swift */,
 				9FD6C897236D5173006D55FB /* Assets.xcassets */,
-				9FD6C89C236D5173006D55FB /* LaunchScreen.storyboard */,
 				9FD6C89F236D5173006D55FB /* Info.plist */,
 				9FD6C899236D5173006D55FB /* Preview Content */,
 			);
@@ -136,6 +196,19 @@
 			path = PopCornUITests;
 			sourceTree = "<group>";
 		};
+		A6E5610F6E439595D69E5739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCD6BAC47311365A024746 /* Pods-PopCorn.debug.xcconfig */,
+				7EF0AFD2FD84EA9A3BB0F3E0 /* Pods-PopCorn.release.xcconfig */,
+				6D823A694B0C8803DF2B6664 /* Pods-PopCorn-PopCornUITests.debug.xcconfig */,
+				D41483C43D0B11708A1A64D3 /* Pods-PopCorn-PopCornUITests.release.xcconfig */,
+				448A4A46DC82330C02740486 /* Pods-PopCornTests.debug.xcconfig */,
+				3BAE2FFC51F0C772558F7BBC /* Pods-PopCornTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FD6C8B8236D5173006D55FB /* Build configuration list for PBXNativeTarget "PopCorn" */;
 			buildPhases = (
+				3FC87759B389B2A0E08B0C42 /* [CP] Check Pods Manifest.lock */,
 				9FD6C88A236D5172006D55FB /* Sources */,
 				9FD6C88B236D5172006D55FB /* Frameworks */,
 				9FD6C88C236D5172006D55FB /* Resources */,
@@ -160,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FD6C8BB236D5173006D55FB /* Build configuration list for PBXNativeTarget "PopCornTests" */;
 			buildPhases = (
+				E854E26B2E80D1BD758881FB /* [CP] Check Pods Manifest.lock */,
 				9FD6C8A0236D5173006D55FB /* Sources */,
 				9FD6C8A1236D5173006D55FB /* Frameworks */,
 				9FD6C8A2236D5173006D55FB /* Resources */,
@@ -178,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FD6C8BE236D5173006D55FB /* Build configuration list for PBXNativeTarget "PopCornUITests" */;
 			buildPhases = (
+				E7CB1243300F9F11053980D4 /* [CP] Check Pods Manifest.lock */,
 				9FD6C8AB236D5173006D55FB /* Sources */,
 				9FD6C8AC236D5173006D55FB /* Frameworks */,
 				9FD6C8AD236D5173006D55FB /* Resources */,
@@ -240,7 +316,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD6C89E236D5173006D55FB /* LaunchScreen.storyboard in Resources */,
+				9FA25A63236D599400F98561 /* Preview Content in Resources */,
+				9FD6C8C3236D53DB006D55FB /* GoogleService-Info.plist in Resources */,
+				9FA25A67236D59B900F98561 /* Main.storyboard in Resources */,
+				9FA25A6A236D5ECC00F98561 /* LaunchScreen.storyboard in Resources */,
 				9FD6C89B236D5173006D55FB /* Preview Assets.xcassets in Resources */,
 				9FD6C898236D5173006D55FB /* Assets.xcassets in Resources */,
 			);
@@ -262,12 +341,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FC87759B389B2A0E08B0C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopCorn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CB1243300F9F11053980D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopCorn-PopCornUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E854E26B2E80D1BD758881FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopCornTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FD6C88A236D5172006D55FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA25A64236D599400F98561 /* PopDetailViewController.swift in Sources */,
+				9FA25A61236D599400F98561 /* LoginViewController.swift in Sources */,
+				9FA25A60236D599400F98561 /* ModalUsePopViewController.swift in Sources */,
+				9FA25A5F236D599400F98561 /* ViewController.swift in Sources */,
+				9FA25A5E236D599400F98561 /* PopListViewController.swift in Sources */,
 				9FD6C892236D5172006D55FB /* AppDelegate.swift in Sources */,
+				9FA25A62236D599400F98561 /* UIColorHex.swift in Sources */,
 				9FD6C894236D5172006D55FB /* SceneDelegate.swift in Sources */,
 				9FD6C896236D5172006D55FB /* ContentView.swift in Sources */,
 			);
@@ -305,10 +459,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9FD6C89C236D5173006D55FB /* LaunchScreen.storyboard */ = {
+		9FA25A65236D59B900F98561 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9FD6C89D236D5173006D55FB /* Base */,
+				9FA25A66236D59B900F98561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FA25A68236D5ECC00F98561 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA25A69236D5ECC00F98561 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -432,8 +594,10 @@
 		};
 		9FD6C8B9236D5173006D55FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4CCD6BAC47311365A024746 /* Pods-PopCorn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PopCorn/PopCornDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PopCorn/Preview Content\"";
 				DEVELOPMENT_TEAM = B3JN3T79ZX;
@@ -443,7 +607,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.service.pop.coupon.PopCorn;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.service.pop.coupon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +616,7 @@
 		};
 		9FD6C8BA236D5173006D55FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF0AFD2FD84EA9A3BB0F3E0 /* Pods-PopCorn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,7 +628,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.service.pop.coupon.PopCorn;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.service.pop.coupon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,6 +637,7 @@
 		};
 		9FD6C8BC236D5173006D55FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448A4A46DC82330C02740486 /* Pods-PopCornTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +660,7 @@
 		};
 		9FD6C8BD236D5173006D55FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAE2FFC51F0C772558F7BBC /* Pods-PopCornTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +683,7 @@
 		};
 		9FD6C8BF236D5173006D55FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D823A694B0C8803DF2B6664 /* Pods-PopCorn-PopCornUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +704,7 @@
 		};
 		9FD6C8C0236D5173006D55FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41483C43D0B11708A1A64D3 /* Pods-PopCorn-PopCornUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
